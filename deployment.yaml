@@ -17,6 +17,6 @@ spec:
       containers:
       - name: billing-container
         # Replace 'yourdockerusername' with your actual Docker Hub username
-        image: yourdockerusername/shopping-bill:PLACEHOLDER_TAG
+        image: keerthini2986/shopping-bill:PLACEHOLDER_TAG
         ports:
         - containerPort: 80
