@@ -22,7 +22,8 @@ jobs:
         pip install -r requirements.txt
 
     - name: 4. Run Automated Tests
-      run: pytest tests/
+      run:
+          PYTHONPATH=. pytest tests/
 
     - name: 5. Docker Hub Authentication
       if: success()
